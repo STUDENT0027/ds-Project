@@ -2,30 +2,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Registration system PHP and MySQL</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>BeeSocial Login</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-  <div class="header">
-  	<h2>Login</h2>
+	<div id="main">
+		<header>
+		   <div id="login"><a href="login.php">Login</a></div>
+			<div id="signup"><a href="register.php">Sign up</a></div>
+			<div id="logo">
+				<a  href="index.html"><img src="images/BeeSocial.png"></a>
+				<div id="logo_text"><h2><strong>Be curious. Be informed. BeeSocial.</strong></h2></div>
+			</div>
+		<!--Main Menu Bar-->    
+		  <nav>
+			<div id="menu_container">
+			  <ul class="sf-menu" id="nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Categories</a>
+				  <ul>
+					<li><a href="#">News and Current events</a></li>
+					<li><a href="#">Technology</a></li>
+					<li><a href="#">Hobbies</a></li>
+					<li><a href="#">Sports</a></li>
+					<li><a href="#">Education</a></li>
+					<li><a href="#">Travel</a></li>    
+					<li><a href="#">Animal Life</a></li>
+					<li><a href="#">Entertainment</a></li>
+					<li><a href="#">Health</a></li>
+					<li><a href="#">Fashion</a></li>		
+					<li><a href="#">Food</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			</div>
+		  </nav>
+		</header>
+	</div>
+	
+	<div id="site_content">
+		<div class="content">
+			<h1>Login</h1>
+			<div class ="form_settings">
+				<form method="post" action="login.php">
+					<?php include('errors.php'); ?>
+						<div class="input-group">
+							<p><label>Username</label>
+								<input type="text" name="username" ></p>
+						</div>
+						<div class="input-group">
+							<p><label>Password</label>
+							<input type="password" name="password"></p>
+						</div>
+						<div class="input-group">
+							<span>&nbsp;</span><button type="submit" class="btn" name="login_user">Login</button>
+						</div>
+					<p>
+						Not yet a member? <a href="register.php">Sign up</a>
+					</p>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="scroll">
+      <a title="Scroll to the top" class="top" href="#"><img src="images/top.png" alt="top" /></a>
+    </div>
+    <footer>
+      <p><img src="images/twitter.png" alt="twitter" />&nbsp;<img src="images/facebook.png" alt="facebook" />&nbsp;<img src="images/rss.png" alt="rss" /></p>
+      <p><a href="index.html">Home</a> | <a href="examples.html">Examples</a> | <a href="page.html">A Page</a> | <a href="another_page.html">Another Page</a> | <a href="contact.php">Contact Us</a></p>
+      <p>Copyright &copy; CSS3_contrast | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
+    </footer>
   </div>
-	 
-  <form method="post" action="login.php">
-  	<?php include('errors.php'); ?>
-  	<div class="input-group">
-  		<label>Username</label>
-  		<input type="text" name="username" >
-  	</div>
-  	<div class="input-group">
-  		<label>Password</label>
-  		<input type="password" name="password">
-  	</div>
-  	<div class="input-group">
-  		<button type="submit" class="btn" name="login_user">Login</button>
-  	</div>
-  	<p>
-  		Not yet a member? <a href="register.php">Sign up</a>
-  	</p>
-  </form>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+      $('.top').click(function() {$('html, body').animate({scrollTop:0}, 'fast'); return false;});
+    });
+  </script>
 </body>
 </html>
