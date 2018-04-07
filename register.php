@@ -14,7 +14,7 @@
 	<div id="main">
 		<header>
 		   <div id="login"><a href="login.php">Login</a></div>
-			<div id="signup"><a href="login">Sign up</a></div>
+			<div id="signup"><a href="#">Sign up</a></div>
 			<div id="logo">
 				<a  href="index.html"><img src="images/BeeSocial.png"></a>
 				<div id="logo_text"><h2><strong>Be curious. Be informed. BeeSocial.</strong></h2></div>
@@ -86,7 +86,7 @@
     </div>
     <footer>
       <p><img src="images/twitter.png" alt="twitter" />&nbsp;<img src="images/facebook.png" alt="facebook" />&nbsp;<img src="images/rss.png" alt="rss" /></p>
-      <p><a href="index.html">Home</a> | <a href="login.php">Login</a> | <a href="register.php">Register</a>
+      <p><a href="index.html">Home</a> | <a href="login.php">Login</a> | <a href="#">Register</a>
       <p>Copyright &copy; CSS3_contrast | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
     </footer>
   </div>
