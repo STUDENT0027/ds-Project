@@ -1,0 +1,145 @@
+.hexagon {
+  position: relative;
+  width: 160px; 
+  height: 92.38px;
+  background-color: #ffe066;
+  margin: 46.19px 0;
+  float:left;
+  margin-right:10px;
+
+}
+  
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 46.19px solid #ffe066;
+  
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 46.19px solid #ffe066;
+}
+
+.hexagon:hover:before{
+  bottom: 100%;
+  border-bottom: 46.19px solid #ffcc00;	
+}
+
+.hexagon:hover{
+	background-color:#ffcc00;
+	
+}
+
+.hexagon:hover:after{
+  top: 100%;
+  width:0;
+  border-top: 46.19px solid #ffcc00;	
+}
+.hexagon h2{
+	text-align:center;
+	margin-top:-20px;
+}
+
+#news.hexagon{
+  background-image:url(images/news.png);
+  background-size: 50px 50px;
+  background-position:center;
+  background-repeat:no-repeat; 
+}
+
+#sports.hexagon{
+  background-image:url(images/sports.png);
+  background-size: 60px 60px;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+#travel.hexagon{
+  background-image:url(images/travel.png);
+  background-size: 45px 45px;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+#entertainment.hexagon{
+  background-image:url(images/ent.png);
+  background-size: 50px 50px;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+#fashion.hexagon{
+  background-image:url(images/fashion.png);
+  background-size: 55px 55px;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+#tech.hexagon{
+  background-image:url(images/tech.png);
+  background-size: 40px 55px;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+#camera.hexagon{
+  background-image:url(images/camera.png);
+  background-size: 55px 55px;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+#education.hexagon{
+  background-image:url(images/education.png);
+  background-size: 70px 70px;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+#animal.hexagon{
+  background-image:url(images/animal.png);
+  background-size: 55px 55px;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+#health.hexagon{
+  background-image:url(images/health.png);
+  background-size: 55px 55px;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+#food.hexagon{
+  background-image:url(images/food.png);
+  background-size: 65px 65px;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.flex_container{
+	display:flex;
+	font-size:15px;
+	overflow:hidden;
+}
+
+.row2{
+	width:1000px;
+	height: 200px;
+	margin:90px;
+	margin-top:-40px;
+}
+
+.category{
+	position:relative;
+	display:flex;
+	justify-content:center;
+	width:1000px;
+	height:200px;
+	
+}

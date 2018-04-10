@@ -27,19 +27,20 @@
 				<li><a href="index.html">Home</a></li>
 				<li><a href="#">Categories</a>
 				  <ul>
-					<li><a href="#">News and Current events</a></li>
-					<li><a href="#">Technology</a></li>
-					<li><a href="#">Hobbies</a></li>
-					<li><a href="#">Sports</a></li>
-					<li><a href="#">Education</a></li>
-					<li><a href="#">Travel</a></li>    
-					<li><a href="#">Animal Life</a></li>
-					<li><a href="#">Entertainment</a></li>
-					<li><a href="#">Health</a></li>
-					<li><a href="#">Fashion</a></li>		
-					<li><a href="#">Food</a></li>
+					<li><a href="nonrNews.php">News and Current events</a></li>
+                <li><a href="nonrTechnology.php">Technology</a></li>
+                <li><a href="nonrHobbies.php">Hobbies</a></li>
+                <li><a href="nonrSports.php">Sports</a></li>
+                <li><a href="nonrEducation.php">Education</a></li>
+                <li><a href="nonrTravel.php">Travel</a></li>    
+                <li><a href="nonrAnimal.php">Animal Life</a></li>
+                <li><a href="nonrEntertainment.php">Entertainment</a></li>
+                <li><a href="nonrHealth.php">Health</a></li>
+				<li><a href="nonrFashion.php">Fashion</a></li>		
+				<li><a href="nonrFood.php">Food</a></li>
 				  </ul>
 				</li>
+				<li><a href="login.php">Site Rules</a></li>
 			  </ul>
 			</div>
 		  </nav>

@@ -5,6 +5,7 @@
   <title>BeeSocial</title>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="hexCss.css" />
   <!-- modernizr enables HTML5 elements and feature detects -->
   <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
   <!--font awesome-->
@@ -31,22 +32,20 @@
             <li><a href="login.php">Profile</a></li>
             <li><a href="#">Categories</a>
               <ul>
-                <li><a href="#">News and Current events</a></li>
-                <li><a href="#">Technology</a></li>
-                <li><a href="#">Hobbies</a></li>
-                <li><a href="#">Sports</a></li>
-                <li><a href="#">Education</a></li>
-                <li><a href="#">Travel</a></li>    
-                <li><a href="#">Animal Life</a></li>
-                <li><a href="#">Entertainment</a></li>
-                <li><a href="#">Health</a></li>
-				<li><a href="#">Fashion</a></li>		
-				<li><a href="#">Food</a></li>
+                <li><a href="nonrNews.php">News and Current events</a></li>
+                <li><a href="nonrTechnology.php">Technology</a></li>
+                <li><a href="nonrHobbies.php">Hobbies</a></li>
+                <li><a href="nonrSports.php">Sports</a></li>
+                <li><a href="nonrEducation.php">Education</a></li>
+                <li><a href="nonrTravel.php">Travel</a></li>    
+                <li><a href="nonrAnimal.php">Animal Life</a></li>
+                <li><a href="nonrEntertainment.php">Entertainment</a></li>
+                <li><a href="nonrHealth.php">Health</a></li>
+				<li><a href="nonrFashion.php">Fashion</a></li>		
+				<li><a href="nonrFood.php">Food</a></li>
 			  </ul>
             </li>
-            
-			<!--<li><input type="text" placeholder="Search.."></li>-->
-			
+			<li><a href="login.php">Site Rules</a></li>		
 		  </ul>
         
 		</div>
@@ -56,18 +55,52 @@
     <div id="site_content">
       
 	  <div class="content">
-        <h1>Welcome to the CSS3_contrast template</h1>
-        <p>This simple, fixed width website template is released under a <a href="http://creativecommons.org/licenses/by/3.0">Creative Commons Attribution 3.0 Licence</a>. This means you are free to download and use it for personal and commercial projects. However, you <strong>must leave the 'design from css3templates.co.uk' link in the footer of the template</strong>.</p>
-        <p>This template is written entirely in <strong>HTML5</strong> and <strong>CSS3</strong>.</p>
-        <p>You can view more free CSS3 web templates <a href="http://www.css3templates.co.uk">here</a>.</p>
-        <p>This template is a fully documented 5 page website, with an <a href="examples.html">examples</a> page that gives examples of all the styles available with this design. There is also a working PHP contact form on the contact page.</p>
-        <h2>Browser Compatibility</h2>
-        <p>This template has been tested in the following browsers:</p>
-        <ul>
-          <li>Internet Explorer 9</li>
-          <li>FireFox 24</li>
-          <li>Google Chrome 31</li>
-        </ul>
+		<div  class="searchBar">
+			<input id="homeSearch" type="text" placeholder="Search topic by tag..">
+			<button id="search2" type="submit" class="btn" name="login_user">Search</button>
+		</div>
+		
+		<div class = "flex_container">		
+			<a href="nonrNews.php">
+				<div id="news" class = "hexagon"><h2>News</h2></div>
+			</a>
+			<a href="nonrSports.php">
+				<div id="sports" class = "hexagon"><h2>Sports</h2></div>
+			</a>
+			<a href="nonrTravel.php">
+				<div id="travel" class = "hexagon"><h2>Travel</h2></div>
+			</a>
+			<a href="nonrEntertainment.php">
+				<div id="entertainment" class = "hexagon"><h2>Entertainment</h2></div>
+			</a>
+			<a href="nonrFashion.php">
+				<div id="fashion" class = "hexagon"><h2>Fashion</h2></div>
+			</a>
+			<a href="nonrTechnology.php">
+				<div id="tech" class = "hexagon"><h2>Technology</h2></div>
+			</a>
+		</div>
+		<div class = "row2">
+			<div class = "flex_container">
+			
+			<a href="nonrHobbies.php">
+				<div id="camera" class = "hexagon"><h2>Hobbies</h2></div>
+			</a>
+			<a href="nonrEducation.php">
+				<div id="education" class = "hexagon"><h2>Education</h2></div>
+			</a>
+			<a href="nonrAnimal.php">
+				<div id="animal" class = "hexagon"><h2>Animal Life</h2></div>
+			</a>
+			<a href="nonrHealth.php">
+				<div id="health" class = "hexagon"><h2>Health</h2></div>
+			</a>
+			<a href="nonrFood.php">
+				<div id="food" class = "hexagon"><h2>Food</h2></div>
+			</a>
+			
+			</div>
+		</div>
       </div>
     </div>
     <div id="scroll">
