@@ -1,8 +1,14 @@
 <?php
 //include_once 'dbconfig.php';
 // connect to the database
-$db = mysql_connect('localhost', 'root', '');
-mysql_select_db('dsproject',$db) or die('Could not select database; ' . mysql_error());
+//$db = mysql_connect('localhost', 'root', '');
+//mysql_select_db('dsproject',$db) or die('Could not select database; ' . mysql_error());
+
+$db = mysqli_connect('localhost', 'root', '', 'dsproject');
+
+if ($db->connect_error) {
+    die("Connection failed: " . $db->connect_error);
+} 
 
 ?>
 <!DOCTYPE html>
@@ -18,14 +24,17 @@ mysql_select_db('dsproject',$db) or die('Could not select database; ' . mysql_er
    
      <?php
  $sql="SELECT * FROM tbl_uploads WHERE category='Travel'";
- $result_set = mysql_query($sql);
-if($result_set === FALSE) { 
-    die(mysql_error()); // TODO: better error handling
+ //$result_set = mysql_query($sql);
+ $result_set = $db->query($sql);
+ 
+//if($result_set) { 
+   // die(mysql_error()); // TODO: better error handling
 	//echo 'No posts in this category';
-}
+//}
 
-if (mysql_num_rows($result_set)==0) {  echo 'No posts in this category'; }
-else{ ?>
+if ($result_set->num_rows > 0) {
+    // output data of each row
+    ?>
  <table width="80%" border="1">
 	<tr>
     <th colspan="4">Sign up or Login to view resources</th>
@@ -34,7 +43,7 @@ else{ ?>
     <td>Title</td>
     <td>Description</td>
     </tr> <?php
- while($row=mysql_fetch_array($result_set))
+ while($row= $result_set->fetch_assoc())
  {
   ?>
    
@@ -49,7 +58,12 @@ else{ ?>
  } 
 					
  }
- 
+ else {
+    echo "No posts in this category";
+}
+
+
+ $db->close();
 
 
  ?>
