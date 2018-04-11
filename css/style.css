@@ -338,6 +338,7 @@ nav {
 }
 .notification{
 	float:left;
+
 	
 }
 footer { 
@@ -376,11 +377,11 @@ footer a:hover {
 
 .form_settings span, label { 
   float: left; 
-  width: 300px; 
+  width: 200px; 
   text-align: left;
 }
   
-.form_settings input, button, .form_settings textarea  { 
+.form_settings input, button, .form_settings textarea { 
   padding: 5px; 
   width: 200px; 
   font: 100% 'Droid Sans', arial; 
@@ -390,13 +391,11 @@ footer a:hover {
   border-radius: 7px 7px 7px 7px;
   -moz-border-radius: 7px 7px 7px 7px;
   -webkit-border: 7px 7px 7px 7px;  
-  margin-bottom:10px;
-  margin-top:10px;
 }
-
-.filetype input{
-	margin:-5px;
-	
+input [type=submit]:hover{
+cursor: pointer;
+	background-color:  #ffd633;
+	color:black; 	
 }
 button:hover{
 	cursor: pointer;
@@ -442,7 +441,21 @@ button:hover{
   border-bottom: 1px solid #FFF;
   margin: 0 0 20px 0;
 }
-  
+.filetype{
+	border:1px solid black;
+	width:1000px;
+	float:left;
+}
+.topics{
+	width:1000px;
+	background-color:#ffeb99;
+	padding:20px 20px 20px 50px;
+	margin-left:0 auto;
+	margin-right:0 auto;
+	margin-top:10px;
+	height:100%;
+	
+}
 table { 
   width:1000px;
   border-collapse:collapse;

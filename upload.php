@@ -47,17 +47,17 @@ $db = mysqli_connect('localhost', 'root', '', 'dsproject');
             <li><a href="index.php">Profile</a></li>
             <li><a href="#">Categories</a>
               <ul>
-                <li><a href="News.php">News and Current events</a></li>
-                <li><a href="Technology.php">Technology</a></li>
-                <li><a href="Hobbies.php">Hobbies</a></li>
-                <li><a href="Sports.php">Sports</a></li>
-                <li><a href="Education.php">Education</a></li>
-                <li><a href="Travel.php">Travel</a></li>    
-                <li><a href="Animal.php">Animal Life</a></li>
-                <li><a href="Entertainment.php">Entertainment</a></li>
-                <li><a href="Health.php">Health</a></li>
-				<li><a href="Fashion.php">Fashion</a></li>		
-				<li><a href="Food.php">Food</a></li>
+                <li><a href="regNews.php">News and Current events</a></li>
+                <li><a href="regTechnology.php">Technology</a></li>
+                <li><a href="regHobbies.php">Hobbies</a></li>
+                <li><a href="regSports.php">Sports</a></li>
+                <li><a href="regEducation.php">Education</a></li>
+                <li><a href="regTravel.php">Travel</a></li>    
+                <li><a href="regAnimal.php">Animal Life</a></li>
+                <li><a href="regEntertainment.php">Entertainment</a></li>
+                <li><a href="regHealth.php">Health</a></li>
+				<li><a href="regFashion.php">Fashion</a></li>		
+				<li><a href="regFood.php">Food</a></li>
 			  </ul>
             </li>
 			<li><a href="Rules.html">Site Rules</a></li>		
@@ -99,31 +99,34 @@ $db = mysqli_connect('localhost', 'root', '', 'dsproject');
 											
 			</div>
 			<div>
-			<div class="filetype">
-			<label for="type_">File Type</label><br>
-									   <input name="type_" type="radio" value="1" />
-											Pdf file 
+			
+			<label for="type_">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File Type</label><br><br>
+		
+									   <input name="type_" type="radio" value="1"/>
+											Pdf file <br>
 										
 										
 											<input name="type_" type="radio" value="2" />
-											Video 
+											Video <br>
 										
 										
 											<input name="type_" type="radio" value="3" />
-											Presentation/Documents
+											Presentation/Documents<br>
 										
 										
 											<input name="type_" type="radio" value="4" />
-											Images
+											Images<br>
 										
 										
 											<input name="type_" type="radio" value="5" />
-											Audio
-										
+											Audio</li><br>
+									
+									
 			</div>
-			</div>
-			 <input type="file" name="file" />
+			<div class = "uploadButtons">
+			 <input style="width:300px;"type="file" name="file" />
 			 <button type="submit" name="btn-upload">upload</button>
+			 </div>
 			 </form>
 		</div>	 
 				<br /><br />

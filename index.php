@@ -43,17 +43,17 @@
             <li><a href="index.php">Profile</a></li>
             <li><a href="#">Categories</a>
               <ul>
-                <li><a href="News.php">News and Current events</a></li>
-                <li><a href="Technology.php">Technology</a></li>
-                <li><a href="Hobbies.php">Hobbies</a></li>
-                <li><a href="Sports.php">Sports</a></li>
-                <li><a href="Education.php">Education</a></li>
-                <li><a href="Travel.php">Travel</a></li>    
-                <li><a href="Animal.php">Animal Life</a></li>
-                <li><a href="Entertainment.php">Entertainment</a></li>
-                <li><a href="Health.php">Health</a></li>
-				<li><a href="Fashion.php">Fashion</a></li>		
-				<li><a href="Food.php">Food</a></li>
+               <li><a href="regNews.php">News and Current events</a></li>
+                <li><a href="regTechnology.php">Technology</a></li>
+                <li><a href="regHobbies.php">Hobbies</a></li>
+                <li><a href="regSports.php">Sports</a></li>
+                <li><a href="regEducation.php">Education</a></li>
+                <li><a href="regTravel.php">Travel</a></li>    
+                <li><a href="regAnimal.php">Animal Life</a></li>
+                <li><a href="regEntertainment.php">Entertainment</a></li>
+                <li><a href="regHealth.php">Health</a></li>
+				<li><a href="regFashion.php">Fashion</a></li>		
+				<li><a href="regFood.php">Food</a></li>
 			  </ul>
             </li>
 			<li><a href="Rules.html">Site Rules</a></li>
@@ -91,8 +91,8 @@
 				<h2>Age:&nbsp;<strong><!-- insert php code here --></strong></h2>
 				<h2>Email:&nbsp;<strong><!-- insert php code here --></strong></h2>
 				<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
-				<input type="button" onclick="location.href='upload.php';" value="add a resource" />
-				<input type="button" onclick="location.href='view.php';" value="view resources" />
+			<!--	<input type="button" onclick="location.href='upload.php';" value="add a resource" />
+				<input type="button" onclick="location.href='view.php';" value="view resources" />-->
 			<?php endif ?>
 		</div>
 	</div>

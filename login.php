@@ -40,7 +40,7 @@
 				<li><a href="nonrFood.php">Food</a></li>
 				  </ul>
 				</li>
-				<li><a href="Rules.html">Site Rules</a></li>
+<li><a href="nonrRules.html">Site Rules</a></li>
 			  </ul>
 			</div>
 		  </nav>
@@ -71,12 +71,12 @@
 			</div>
 		</div>
 	</div>
-	<div id="scroll">
+    <div id="scroll">
       <a title="Scroll to the top" class="top" href="#"><img src="images/top.png" alt="top" /></a>
     </div>
     <footer>
       <p><img src="images/twitter.png" alt="twitter" />&nbsp;<img src="images/facebook.png" alt="facebook" />&nbsp;<img src="images/rss.png" alt="rss" /></p>
-      <p><a href="index.html">Home</a> | <a href="examples.html">Examples</a> | <a href="page.html">A Page</a> | <a href="another_page.html">Another Page</a> | <a href="contact.php">Contact Us</a></p>
+      <p><a href="index.html">Home</a> | <a href="login.php">Login</a> | <a href="#">Register</a>
       <p>Copyright &copy; CSS3_contrast | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
     </footer>
   </div>

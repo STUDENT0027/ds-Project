@@ -61,7 +61,7 @@ $insert = $db->query("INSERT tbl_uploads (file,type,size,title,category,descript
   ?>
   <script>
   alert('successfully uploaded');
-        window.location.href='index.php?success';
+        window.location.href='home.html?success';
         </script>
   <?php
  }
