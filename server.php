@@ -23,7 +23,7 @@ if (isset($_POST['reg_user'])) {
   // by adding (array_push()) corresponding error unto $errors array
   if (empty($username)) { array_push($errors, "Username is required"); }
   if (empty($age)) { array_push($errors, "Age is required"); }
-  if($age <16){ array_push($errors, "invalid age") ;}
+  if($age <16){ array_push($errors, "You must be 16 years or older to use BeeSocial") ;}
   if (empty($email)) { array_push($errors, "Email is required"); }
   if (empty($password_1)) { array_push($errors, "Password is required"); }
   if ($password_1 != $password_2) {

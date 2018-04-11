@@ -40,7 +40,7 @@
 				<li><a href="nonrFood.php">Food</a></li>
 				  </ul>
 				</li>
-				<li><a href="login.php">Site Rules</a></li>
+				<li><a href="Rules.html">Site Rules</a></li>
 			  </ul>
 			</div>
 		  </nav>

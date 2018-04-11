@@ -122,6 +122,12 @@
   background-position:center;
   background-repeat:no-repeat;
 }
+#profile.hexagon{
+  background-image:url(images/profile.png);
+  background-size: 65px 65px;
+  background-position:center;
+  background-repeat:no-repeat;
+}
 .flex_container{
 	display:flex;
 	font-size:15px;

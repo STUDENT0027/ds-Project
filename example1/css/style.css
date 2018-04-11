@@ -328,18 +328,7 @@ nav {
   padding: 0 0 4px 28px;
   line-height: 1.5em;
 }
-.profile{
 
-	margin: 200px 0 0 370px;
-	width: 200px;
-	height:200px;
-	position:relative;
-	padding: 20px;
-}
-.notification{
-	float:left;
-	
-}
 footer { 
   font: 100% 'Droid Sans', arial, sans-serif;
   height: 125px;
@@ -376,13 +365,13 @@ footer a:hover {
 
 .form_settings span, label { 
   float: left; 
-  width: 300px; 
+  width: 200px; 
   text-align: left;
 }
   
-.form_settings input, button, .form_settings textarea  { 
+.form_settings input, button, .form_settings textarea { 
   padding: 5px; 
-  width: 200px; 
+  width: 100px; 
   font: 100% 'Droid Sans', arial; 
   border: 1px solid #E5E5DB; 
   background: #FFF; 
@@ -390,14 +379,8 @@ footer a:hover {
   border-radius: 7px 7px 7px 7px;
   -moz-border-radius: 7px 7px 7px 7px;
   -webkit-border: 7px 7px 7px 7px;  
-  margin-bottom:10px;
-  margin-top:10px;
 }
 
-.filetype input{
-	margin:-5px;
-	
-}
 button:hover{
 	cursor: pointer;
 	background-color:  #ffd633;
