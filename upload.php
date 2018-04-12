@@ -110,8 +110,7 @@ $db = mysqli_connect('localhost', 'root', '', 'dsproject');
 											Video <br>
 										
 										
-											<input name="type_" type="radio" value="3" />
-											Presentation/Documents<br>
+											
 										
 										
 											<input name="type_" type="radio" value="4" />
@@ -124,7 +123,7 @@ $db = mysqli_connect('localhost', 'root', '', 'dsproject');
 									
 			</div>
 			<div class = "uploadButtons">
-			 <input style="width:300px;"type="file" name="file" />
+			  <input type="file" name="file" accept="file_extension|.mp3,audio/*|.mp4,video/*|image/*|media_type" />
 			 <button type="submit" name="btn-upload">upload</button>
 			 </div>
 			 </form>

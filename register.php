@@ -62,7 +62,7 @@
 				</div>
 				<div class="input-group">
 				  <p><label>Email</label>
-				  <input type="email" name="email" value="<?php echo $email; ?>"></p>
+				  <input type="text" name="email" value="<?php echo $email; ?>"></p>
 				</div>
 				<div class="input-group">
 				  <p><label>Password</label>

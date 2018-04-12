@@ -27,7 +27,7 @@ if(isset($_POST['btn-upload']))
   // form validation: ensure that the form is correctly filled ...
    //do later
    
-  $valid_extensions = array('jpeg', 'jpg', 'png', 'mp3', 'mkv' , 'pdf' , 'docx' , 'ppt'); // valid extensions
+  $valid_extensions = array('jpeg', 'jpg', 'png', 'mp3', 'mp4' , 'pdf' , 'docx' , 'ppt'); // valid extensions
   
   // get uploaded file's extension
 $ext = strtolower(pathinfo($file, PATHINFO_EXTENSION));

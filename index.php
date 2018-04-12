@@ -88,8 +88,8 @@
 			<!-- logged in user information -->
 			<?php  if (isset($_SESSION['username'])) : ?>
 				<h2>Username:&nbsp;<strong><?php echo $_SESSION['username']; ?></strong></h2>
-				<h2>Age:&nbsp;<strong><!-- insert php code here --></strong></h2>
-				<h2>Email:&nbsp;<strong><!-- insert php code here --></strong></h2>
+				<!--<h2>Age:&nbsp;<strong><!-- insert php code here --><!--</strong></h2>
+				<h2>Email:&nbsp;<strong><!-- insert php code here --><!--</strong></h2>-->
 				<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
 			<!--	<input type="button" onclick="location.href='upload.php';" value="add a resource" />
 				<input type="button" onclick="location.href='view.php';" value="view resources" />-->
